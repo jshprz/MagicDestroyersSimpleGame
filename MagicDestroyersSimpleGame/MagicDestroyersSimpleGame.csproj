@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Characters\" />
+    <None Remove="Enums\" />
+    <None Remove="Equipments\" />
+    <None Remove="Characters\Interfaces\" />
+    <None Remove="Characters\Melee\" />
+    <None Remove="Characters\Spellcasters\" />
+    <None Remove="Equipments\Armors\" />
+    <None Remove="Equipments\Interfaces\" />
+    <None Remove="Equipments\Weapons\" />
+    <None Remove="Equipments\Armors\Heavy\" />
+    <None Remove="Equipments\Armors\Leather\" />
+    <None Remove="Equipments\Armors\Light\" />
+    <None Remove="Equipments\Weapons\Blunt\" />
+    <None Remove="Equipments\Weapons\Sharp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Characters\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Equipments\" />
+    <Folder Include="Characters\Interfaces\" />
+    <Folder Include="Characters\Melee\" />
+    <Folder Include="Characters\Spellcasters\" />
+    <Folder Include="Equipments\Armors\" />
+    <Folder Include="Equipments\Interfaces\" />
+    <Folder Include="Equipments\Weapons\" />
+    <Folder Include="Equipments\Armors\Heavy\" />
+    <Folder Include="Equipments\Armors\Leather\" />
+    <Folder Include="Equipments\Armors\Light\" />
+    <Folder Include="Equipments\Weapons\Blunt\" />
+    <Folder Include="Equipments\Weapons\Sharp\" />
+  </ItemGroup>
+</Project>
